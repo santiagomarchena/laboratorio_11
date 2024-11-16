@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 4</title>
+</head>
+<body>
+    <script>
+        alert("Puede ver el resultado en la consola.");
+        let numero = Math.floor(Math.random()*10)+1;
+        let adivina = prompt("Adivina un número del 1 al 10: ");
+
+        if(adivina == numero){
+            console.log("¡Felicidades, adivinaste el número!");
+        }else{
+            console.log(`Lo siento, el número era ${numero}.`);
+        }
+    </script>    
+</body>
+</html>
