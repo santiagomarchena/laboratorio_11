@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parte 3</title>
+</head>
+<body>
+    <script>
+        alert("Puede ver el resultado en la consola.");
+        let total = parseFloat(prompt("Ingrese el monto total de su compra: "));
+        let descuento;
+
+        if(total > 100){
+            descuento = total* 0.10
+            total = total - descuento;
+            console.log(`Aplica un descuento del 10%, por lo cual su valor es: ${total}`); 
+        }else{
+            console.log(`El valor de su compra es ${total}, no aplica descuento.`);
+        }
+    </script>
+    
+</body>
+</html>
